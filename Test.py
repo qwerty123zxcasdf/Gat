@@ -1,3 +1,4 @@
-def main():
-    return main()
-print(main())
+def main(x):
+    x += 1
+    return main(x)
+print(main(x))
