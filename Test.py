@@ -1,4 +1,3 @@
-def main(x):
-    x += 1
-    return main(x)
-print(main(x))
+while True:
+    x = x + 1
+    print(x)
